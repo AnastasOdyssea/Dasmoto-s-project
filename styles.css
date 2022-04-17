@@ -1,17 +1,38 @@
-* {
-  margin:0px;
-  padding:0px;
+header {
+  background: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.brushes #header {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+em {
+  font-family: Helvetica;
+  color: blue;
+  font-weight: bold;
+}
+
+.frames #header1 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+}
+
+.paint #header2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
 }
