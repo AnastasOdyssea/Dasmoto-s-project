@@ -1,38 +1,44 @@
+* {
+  font-family: Helvetica;
+  /* The whole website is using the same font-famely. We can set it once for all instead of repeating the code everytime. */
+}
+
+h1, h2, h3, em {
+  font-weight: bold;
+  /* add font-weight for h1, h2, h3 so there is no need to repeat the code. */
+}
+
+h1 {
+  font-size: 100px; 
+  /* add h1 as the header's font-size doesn't change the font-size on the page */
+}
+
+h2 {
+  font-size: 32px;
+  /* same as above the font-size of the div won't change font-size */
+}
+
 header {
   background: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
-  font-family: Helvetica;
-  font-size: 100px;
-  font-weight: bold;
   color: khaki;
   text-align: center;
 }
 
 .brushes #header {
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
   color: white;
   background-color: mediumspringgreen;
 }
 
 em {
-  font-family: Helvetica;
   color: blue;
-  font-weight: bold;
 }
 
 .frames #header1 {
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
   color: white;
   background-color: lightcoral;
 }
 
 .paint #header2 {
-  font-family: Helvetica;
-  font-size: 32px;
-  font-weight: bold;
   color: white;
   background-color: skyblue;
 }

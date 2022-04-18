@@ -4,8 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- Do we need this line? See the link below: -->
+    <!-- https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Do we really need this line for this particular project? 
+        Are you going to deploy the website and make sure mobile devices adjust the size? -->
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- style.css is not linked -> changed to styles.css -->
+
     <title>Dasmoto's Arts & Crafts</title>
 </head>
 
@@ -13,15 +21,24 @@
     <header>
         <h1>Dasmoto's Arts & Crafts</h1>
     </header>
+
     <div class="brushes">
         <div class="brushes" id="header">
             <h2>Brushes</h2>
         </div>
         <img src="https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg" alt="">
+
+        <!-- alt="" empty -> add text or remove alt="" -->
+
         <h3>Hacksaw Brushes</h3>
         <p>
             Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in
-            large <br> amounts. Available in different sizes. <em>Starting at $3.00 / brush.</em>
+            large 
+            <br> 
+            <!-- Why <br> here? -->
+            amounts. Available in different sizes. <em>Starting at $3.00 / brush.</em>
+            <!-- Why using <em>?
+                https://www.codecademy.com/forum_questions/50329c05c09e7200020020d6#:~:text=is%20for%20emphasis.,element)%20with%20no%20default%20styling. -->
         </p>
 
     </div>
@@ -33,10 +50,21 @@
             <h2>Frames</h2>
         </div>
         <img src="https://content.codecademy.com/courses/freelance-1/unit-2/frames.jpeg" alt="">
+
+        <!-- alt="" empty -> add text or remove alt="" -->
+
         <p>
         <h3>Art Frames(assorted)</h3>
         Assorted frames made of different material, including MDF, birchwood, and PDE.Select frames can be sanded
-        and <br> painted according to your needs.<em> Starting at $2.00 / frame.</em>
+        and 
+        <br> 
+
+        <!-- Why <br> here? -->
+
+        painted according to your needs.<em> Starting at $2.00 / frame.</em>
+
+        <!-- Why using <em>? -->
+
         </p>
     </div>
 
@@ -45,12 +73,21 @@
             <h2>Paint</h2>
         </div>
         <img src="https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg" alt="">
+
+        <!-- alt="" empty -> add text or remove alt="" -->
+
         <p>
         <h3>Clean Finish Paint</h3>
         Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.).
-        Clean Finnish paint <br> microbinds to canvas, increasing the finish and longevity of any artwork.<em> Starting
-            at
-            $5.00 / tube.</em>
+        Clean Finnish paint 
+        <br> 
+        
+        <!-- Why <br> here? -->
+
+        microbinds to canvas, increasing the finish and longevity of any artwork.<em> Starting at $5.00 / tube.</em>
+
+        <!-- Why using <em>? -->
+
         </p>
     </div>
 
